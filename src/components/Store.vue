@@ -10,9 +10,9 @@
         <div>배달이 안 되어 직접 가셔야 됩니다. / 곱배기 가격 동일</div>
       </div>
 
-      <div class="menuWrapper">
+      <div class="menuWrapper flex">
 
-        <div class="menuItem">
+        <div class="menuItem w-48">
           <div>메뉴사진</div>
           <div>불.국수</div>
           <div>잔치국수(냉,온)+돼지불고기(130g)</div>
@@ -75,7 +75,7 @@
         <div>배달이 안 되어 직접 가셔야 됩니다.</div>
       </div>
 
-      <div class="menuWrapper">
+      <div class="menuWrapper flex">
 
         <div class="menuItem">
           <div>메뉴사진</div>
@@ -206,7 +206,7 @@
     <!--정담아 김밥 끝-->
 
     <!--영천식당-->
-    <div class="storeItem" v-if="selectedStoreInfo.id == 3">
+    <div class="storeItem font-sans" v-if="selectedStoreInfo.id == 3">
 
       <div class="storeInfo">
         <div class="title">영천식당</div>
@@ -215,28 +215,28 @@
         <div></div>
       </div>
 
-      <div class="menuWrapper">
+      <div class="menuWrapper flex">
 
-        <div class="menuItem">
-          <div>메뉴사진</div>
+        <div class="menuItem w-72 shadow-md">
+          <div class="flex-none w-48 relative">메뉴사진</div>
           <div>된장찌개</div>
           <div></div>
           <div></div>
         </div>
-        <div class="menuItem">
-          <div>메뉴사진</div>
+        <div class="menuItem w-72 shadow-md">
+          <div class="flex-none w-48 relative">메뉴사진</div>
           <div>김치찌개</div>
           <div></div>
           <div></div>
         </div>
-        <div class="menuItem">
-          <div>메뉴사진</div>
+        <div class="menuItem w-72 shadow-md">
+          <div class="flex-none w-48 relative">메뉴사진</div>
           <div>참치찌개</div>
           <div></div>
           <div></div>
         </div>
-        <div class="menuItem">
-          <div>메뉴사진</div>
+        <div class="menuItem w-72 shadow-md">
+          <div class="flex-none w-48 relative">메뉴사진</div>
           <div>제육볶음</div>
           <div></div>
           <div></div>
@@ -256,7 +256,7 @@
         <div>설명</div>
       </div>
 
-      <div class="menuWrapper">
+      <div class="menuWrapper flex">
 
         <div class="menuItem">
           <div>메뉴사진</div>
@@ -279,7 +279,7 @@
         <div>설명</div>
       </div>
 
-      <div class="menuWrapper">
+      <div class="menuWrapper flex">
 
         <div class="menuItem">
           <div>메뉴사진</div>
@@ -315,9 +315,5 @@ export default {
 }
 </script>
 <style>
-  .menuItem {
-    border : 1px solid black;
-    width: 300px;
-    height: 200px;
-  }
+
 </style>

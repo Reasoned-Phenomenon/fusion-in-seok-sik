@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App */
+.storeItem {
+    text-align: left;
+}
+
+.storeInfo .title {
+font-size: 20px;
+font-weight: bold;
+}
+
+/* Store */

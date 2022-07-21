@@ -1,5 +1,8 @@
 <template>
 <div>
+  <div class="bg-red-400 text-3xl">
+    테스트
+  </div>
   <!--Nav-->
   <div>
     <Nav 
@@ -40,11 +43,5 @@ export default {
 </script>
 
 <style>
-.storeItem {
-  text-align: left;
-}
-.storeInfo .title {
-  font-size: 20px;
-  font-weight: bold;
-}
+@import "/dist/output.css";
 </style>
