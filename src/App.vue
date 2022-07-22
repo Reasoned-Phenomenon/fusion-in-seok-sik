@@ -1,8 +1,5 @@
 <template>
 <div>
-  <div class="bg-red-400 text-3xl">
-    테스트
-  </div>
   <!--Nav-->
   <div>
     <Nav 

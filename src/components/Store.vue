@@ -217,25 +217,25 @@
 
       <div class="menuWrapper flex">
 
-        <div class="menuItem w-72 shadow-md">
+        <div class="menuItem w-72 shadow-md rounded-lg">
           <div class="flex-none w-48 relative">메뉴사진</div>
           <div>된장찌개</div>
           <div></div>
           <div></div>
         </div>
-        <div class="menuItem w-72 shadow-md">
+        <div class="menuItem w-72 shadow-md rounded-lg">
           <div class="flex-none w-48 relative">메뉴사진</div>
           <div>김치찌개</div>
           <div></div>
           <div></div>
         </div>
-        <div class="menuItem w-72 shadow-md">
+        <div class="menuItem w-72 shadow-md rounded-lg">
           <div class="flex-none w-48 relative">메뉴사진</div>
           <div>참치찌개</div>
           <div></div>
           <div></div>
         </div>
-        <div class="menuItem w-72 shadow-md">
+        <div class="menuItem w-72 shadow-md rounded-lg">
           <div class="flex-none w-48 relative">메뉴사진</div>
           <div>제육볶음</div>
           <div></div>
